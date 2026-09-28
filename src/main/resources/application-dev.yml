@@ -2,6 +2,11 @@ server:
   port: 8081
 
 app:
+  locale:
+    default-locale: kk
+    supported:
+      - kk
+      - ru
   mail:
     enabled: false
     retry-count: 1

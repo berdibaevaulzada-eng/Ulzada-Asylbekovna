@@ -8,6 +8,14 @@ server:
 app:
   owner: Berdibaeva Ulzada
   group: IS-2406
+
+  locale:
+    default-locale: en
+    supported:
+      - en
+      - ru
+      - kk
+
   mail:
     from: no-reply@iitu.kz
     retry-count: 3
